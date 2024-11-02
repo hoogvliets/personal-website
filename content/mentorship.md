@@ -11,4 +11,4 @@ Throughout my 17-year career, I've advised and coached many people. From the int
 
 Interested? Book an [appointment through Topmate](https://topmate.io/raphael)!
 
-[![Topmate](/images/topmate.png)](https://topmate.io/raphael)
+[![Topmate](/static/images/topmate.png)](https://topmate.io/raphael)
