@@ -1,0 +1,11 @@
+extends: default
+
+rules:
+  line-length:
+    max: 120
+  comments:
+    min-spaces-from-content: 2
+
+yaml-files:
+  - '*.yaml'
+  - '*.yml'
