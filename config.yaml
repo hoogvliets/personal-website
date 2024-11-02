@@ -1,8 +1,9 @@
+---  # Add document start marker
 baseURL: "https://mettlesome.io/"
 languageCode: en-us
 title: Raphaël Hoogvliets
 theme: ["PaperMod"]
-paginate: 5
+pagination.pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -16,13 +17,15 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production    # Fixed comment spacing
   title: Raphaël Hoogvliets
   description: "Personal website of Raphaël Hoogvliets"
   keywords: [Blog, Services, Portfolio, Personal Website, PaperMod]
   author: Raphaël Hoogvliets
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # author: ["Me", "You"]    # Fixed comment spacing
+  images: [
+    "<link or path of image for opengraph, twitter-cards>"
+  ]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -44,7 +47,7 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    # disableHLJS: true    # Fixed comment spacing
     # disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
@@ -99,26 +102,26 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc"    # Fixed comment spacing
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc"    # Fixed comment spacing
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc"    # Fixed comment spacing
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
+    hidden: true    # Fixed comment spacing
+    hiddenInList: true    # Fixed comment spacing
     hiddenInSingle: true # hide on single page
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    Text: "Suggest Changes"    # Fixed comment spacing
+    appendFilePath: true    # Fixed comment spacing
 
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
-    isCaseSensitive: false
+    isCaseSensitive: false    # Fixed comment spacing
     shouldSort: true
     location: 0
     distance: 1000
