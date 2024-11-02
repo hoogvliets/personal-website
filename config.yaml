@@ -27,7 +27,7 @@ params:
     "<link or path of image for opengraph, twitter-cards>"
   ]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto  # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -62,7 +62,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: false  # needs to be explicitly set
     title: ExampleSite
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
@@ -111,7 +111,7 @@ params:
   cover:
     hidden: true    # Fixed comment spacing
     hiddenInList: true    # Fixed comment spacing
-    hiddenInSingle: true # hide on single page
+    hiddenInSingle: true  # hide on single page
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
@@ -127,7 +127,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    limit: 10  # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
   social:
@@ -165,3 +165,8 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+
+module.mounts:    # Added colon to define the key properly
+  source: 'images'
+  target: 'static/images'
