@@ -1,5 +1,5 @@
 ---  # Add document start marker
-baseURL: "https://hoogvliets.github.io/personal-website/"
+baseURL: "https://hoogvliets.github.io/personal-website"
 languageCode: en-us
 title: Raphaël Hoogvliets
 theme: ["PaperMod"]
