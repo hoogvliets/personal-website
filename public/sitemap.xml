@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:58038/personal-website/mlops/</loc>
+    <loc>https://hoogvliets.github.io/personal-website/mlops/</loc>
   </url><url>
-    <loc>http://localhost:58038/personal-website/about-me/</loc>
+    <loc>https://hoogvliets.github.io/personal-website/about-me/</loc>
   </url><url>
-    <loc>http://localhost:58038/personal-website/categories/</loc>
+    <loc>https://hoogvliets.github.io/personal-website/categories/</loc>
   </url><url>
-    <loc>http://localhost:58038/personal-website/mentorship/</loc>
+    <loc>https://hoogvliets.github.io/personal-website/mentorship/</loc>
   </url><url>
-    <loc>http://localhost:58038/personal-website/</loc>
+    <loc>https://hoogvliets.github.io/personal-website/</loc>
   </url><url>
-    <loc>http://localhost:58038/personal-website/tags/</loc>
+    <loc>https://hoogvliets.github.io/personal-website/tags/</loc>
   </url>
 </urlset>
